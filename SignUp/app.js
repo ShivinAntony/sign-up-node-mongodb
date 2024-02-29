@@ -19,7 +19,6 @@ mongoose.connect('mongodb://localhost:27017/db1', {
 db.on('error', console.error.bind(console, 'MongoDB connection error:'));
 db.once('open', () => {
   console.log('Connected to MongoDB');
-  // You can start your server or perform other operations here
 });
 
 // Configure Handlebars
